@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>QUIZ</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -33,7 +34,8 @@
   <!-- Rapport e mockup-->
   <div class="px-4 my-5 lexend">
     <p class="f-20 text-white">Descubra as estratégias <span class="text-warning">comprovadas</span> para quitar todas as suas <span class="text-danger">dívidas</span>, melhorar seu score de crédito e finalmente alcançar a paz <span class="text-success">financeira</span> que você merece!</p>
-    <img src="images/mockup2.png" alt="Mockup Livro " class="img-fluid">
+    <img src="images/mockup2.png" alt="Mockup Livro " class="mt-3 img-fluid">
+    <div class="text-center"><a class="btn btn-outline-light btn-lg" href="#checkout" role="button">Conferir</a></div>
   </div>
 
 
@@ -43,29 +45,34 @@
       <p class="f-24 text-white">Apenas este guia já vai te ajudar a...</p>
     </div>
 
-    <div class="d-flex flex-column justify-content-between text-center">
-      <div class="vantagens py-2 mb-4">
+    <div class="d-flex flex-column justify-content-between">
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
         <span class="f-20 text-white lexend-bold">Pagar suas dívidas rapidamente</br></span>
+        <box-icon name='time' size="md" color="#ffffff"></box-icon>
         <span class="f-16 text-white lexend-light">Técnicas práticas para quitar</br>dívidas de forma eficaz.</span>
       </div>
 
-      <div class="vantagens py-2 mb-4">
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
         <span class="f-20 text-white lexend-bold">Melhorar seu score de crédito</br></span>
+        <box-icon name='line-chart' size="md" color="#ffffff"></box-icon>
         <span class="f-16 text-white lexend-light">Estratégias para limpar seu</br>nome e aumentar seu score.</span>
       </div>
 
-      <div class="vantagens py-2 mb-4">
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
         <span class="f-20 text-white lexend-bold">Controlar suas finanças</br></span>
+        <box-icon size="md" color="#ffffff" name='money'></box-icon>
         <span class="f-16 text-white lexend-light">Métodos para organizar suas</br>finanças e evitar novas dívidas.</span>
       </div>
 
-      <div class="vantagens py-2 mb-4">
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
         <span class="f-20 text-white lexend-bold">Paz de espírito</br></span>
+        <box-icon size="md" color="#ffffff" name='infinite'></box-icon>
         <span class="f-16 text-white lexend-light">Reduza o estresse financeiro e</br>melhore sua qualidade de vida.</span>
       </div>
 
-      <div class="vantagens py-2 mb-4">
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
         <span class="f-20 text-white lexend-bold">Educação financeira contínua</br></span>
+        <box-icon size="md" color="#ffffff" name='book-bookmark'></box-icon>
         <span class="f-16 text-white lexend-light">Ferramentas e recursos para manter</br>sua saúde financeira a longo prazo.</span>
       </div>
     </div>
@@ -75,19 +82,63 @@
  
 
   <!--Por que funciona?-->
-  <div class="bg-white">
-      <div class="pt-5">
-        <div class="text-center"><h1 class="text-azure lexend-bold f-24">Por que funciona??</h1></div>
-        <p class="text-azure lexend-light f-16 px-4">Nosso guia foi desenvolvido com base em métodos comprovados e testados, usados por especialistas em finanças e pessoas comuns que conseguiram sair das dívidas. Ele combina técnicas de planejamento financeiro, negociação de dívidas, controle de gastos e exercícios mentais para mudar sua mentalidade financeira.</p>
+  <div class="bg-white pb-2">
+      <div class="pt-5 pb-2">
+        <div class="text-center pb-2"><h1 class="text-azure lexend-bold f-24">Por que funciona??</h1></div>
+        <p class="text-azure lexend-light f-16 px-4">Nosso guia foi desenvolvido com base em métodos comprovados e testados, usados por especialistas em finanças e pessoas comuns que conseguiram sair das dívidas. Ele combina técnicas de planejamento financeiro, negociação de dívidas, controle de gastos e exercícios mentais para mudar sua mentalidade financeira. <span class="lexend">Tudo isso para...</span></p>
       </div>
+      <div id="acabar-dividas" class="text-center"><span class="text-shadow text-white lexend-bold f-32">Acabar com as <span class="text-danger">dívidas!</span></span></div>
+  
+      <div class="px-5 text-p lexend">
+        <ul class="list-group text-center">
+          <li class="list-group-item">Serasa</li>
+          <li class="list-group-item">FGTS</li>
+          <li class="list-group-item">Receita Federal</li>
+          <li class="list-group-item">MEI</li>
+          <li class="list-group-item">Banco do Brasil</li>
+          <li class="list-group-item">Caixa</li>
+          <li class="list-group-item">Santander</li>
+          <li class="list-group-item">NuBank</li>
+          <li class="list-group-item">Inter</li>
+          <li class="list-group-item">Bradesco</li>
+          <li class="list-group-item">Itaú</li>
+        </ul>
+    </div>
+
+    <div class="card m-4 p-4">
+      <img src="images/person1.png" alt="Depoimento 1" class="card-img-top">
+      <div class="card-body">
+        <p class="text-p lexend">"Antes de seguir este guia, eu estava desesperado com minhas dívidas. Hoje, estou livre das dívidas e meu nome está limpo. Recomendo a todos que estão na mesma situação."</p>
+        <p class="text-p lexend-light fs-5">João Borges T.</p>
+      </div>
+    </div>
+
+    <div class="card m-4 p-4">
+      <img src="images/person2.png" alt="Depoimento 2" class="card-img-top">
+      <div class="card-body">
+        <p class="text-p lexend">"Este ebook mudou minha vida financeira. As estratégias são práticas e fáceis de seguir. Consegui pagar todas as minhas dívidas em menos de 6 meses."</p>
+        <p class="text-p lexend-light fs-5">Augusto Lima S.</p>
+      </div>
+    </div>
   </div>
 
+  <div class="mt-5">
+      <div class="d-flex align-items-center p-2">
+        <box-icon style="width: 50vw;" size="lg" color="#ffffff" name='line-chart'></box-icon>
+        <p class="text-white lexend-bold p-2">95% dos leitores relataram uma melhoria significativa em suas finanças em apenas 3 meses.</p>
+      </div>
+
+      <div class="d-flex align-items-center p-2">
+        <box-icon style="width: 50vw;" size="lg" color="#ffffff" name='trophy'></box-icon>
+        <p class="text-white lexend-bold p-2">80% dos usuários conseguiram negociar suas dívidas com sucesso.</p>
+      </div>
+  </div>
   
 
 
   
 
-
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>

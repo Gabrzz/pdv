@@ -12,6 +12,14 @@ html {
     /* Para evitar rolagem horizontal */
 }
 
+
+#acabar-dividas{
+    margin: 0px 30px 0px 30px;
+    background-color: #2E3E4E;
+    border: 1px solid #2f3e54;
+    border-radius: 22px;
+}
+
 .kumbh {
     font-family: "Kumbh Sans", sans-serif;
     font-optical-sizing: auto;
@@ -53,9 +61,6 @@ html {
     font-weight: 700;
     font-style: normal;
 }
-
-
-
 
 
 
@@ -114,7 +119,7 @@ html {
 .bg-1 {
     width: 100%;
     height: 787px;
-    background-image: url(/images/back1.png);
+    background-image: url(images/back1.png);
     outline: 4px solid rgba(75, 113, 151, 0.46);
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
 }
@@ -144,16 +149,9 @@ html {
 .triangle-divider {
     width: 0;
     height: 0;
-    border-left: 37.5px solid transparent;
-    border-right: 37.5px solid transparent;
-    border-bottom: 63px solid #2f3e54;
-    /* Substitua pela cor desejada */
+    border-left: 42px solid transparent;
+    border-right: 42px solid transparent;
+    border-top: 50px solid rgba(46, 62, 78, 1);
     margin: 0 auto;
     background-color: white;
-}
-
-.triangle-divider.inverted {
-    border-bottom: none;
-    border-top: 63px solid rgba(46, 62, 78, 1);
-    /* Substitua pela cor desejada */
 }
