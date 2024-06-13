@@ -70,8 +70,16 @@ html {
     text-shadow: 0px 4px 4px #0000003c;
 }
 
+.f-16 {
+    font-size: 16px;
+}
+
 .f-20 {
     font-size: 20px;
+}
+
+.f-24 {
+    font-size: 24px;
 }
 
 .f-32 {
@@ -91,6 +99,10 @@ html {
     background-color: #2E3E4E;
 }
 
+.text-azure {
+    color: #2E3E4E;
+}
+
 .barra {
     max-height: 5px;
 }
@@ -107,6 +119,41 @@ html {
     box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
+.bg-quiz {
+    height: 100%;
+
+}
+
 .grief {
     width: 278px;
+}
+
+.one-edge-shadow {
+    box-shadow: 0 8px 6px -6px black;
+}
+
+.vantagens {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+.section{
+    background-color: white;
+}
+.triangle-divider {
+    width: 0;
+    height: 0;
+    border-left: 37.5px solid transparent;
+    border-right: 37.5px solid transparent;
+    border-bottom: 63px solid #2f3e54;
+    /* Substitua pela cor desejada */
+    margin: 0 auto;
+    background-color: white;
+}
+
+.triangle-divider.inverted {
+    border-bottom: none;
+    border-top: 63px solid rgba(46, 62, 78, 1);
+    /* Substitua pela cor desejada */
 }
