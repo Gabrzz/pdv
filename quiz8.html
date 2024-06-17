@@ -21,19 +21,51 @@
         </div>
       </div>
 
-      <h1 class="text-center text-white">Identificamos estratégias específicas que podem ajudá-lo(a) a quitar suas <span class="text-success">dívidas</span> rapidamente e começar a construir uma vida <span class="text-success">financeira</span> saudável.</span></h1>
+      <h1 class="text-center text-white">Identificamos <span class="text-warning">estratégias</span> específicas que podem ajudá-lo(a) a quitar suas <span class="text-danger">dívidas</span> rapidamente e começar a construir uma vida financeira saudável.</span></h1>
       
       <div class="my-4">
         <img src="images/result.png" alt="Nota de dinheiro" class="img-fluid">
       </div>
 
-      <p class="text-center text-white-50">Clique no botão para saber mais...</p>
     </div>
-
+    
     <div class="d-grid px-4 my-2">
-      <a class="btn btn-success btn-lg" href="pdv.html" role="button"><strong>descobrir as estratégias agora!</strong></a>
+      <p class="text-center text-white-50">Clique no botão para saber mais...</p>
+      <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        descobrir as estratégias agora!
+      </button>
     </div>
   </div>
+
+  <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content raleway">
+      <div class="modal-header bg-azure">
+        <h1 class="modal-title fs-5 text-white" id="exampleModalLabel">Salve reus resultados!</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bg-azure text-white">
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="col-form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" required>
+            <label for="email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="email" required></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-success mb-2"><strong>Salvar resultados e descobrir estratégias.</strong></button>
+          </div>
+          <div>
+            <a class="btn btn-secondary mb-2" href="pdv.html" role="button"><span class="">Não salvar resultados e descobrir estratégias.</span></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
 
   
 
