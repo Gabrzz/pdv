@@ -1,32 +1,265 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>QUIZ</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body class="bg-azure">
-    
-    <div class="raleway bg-quiz d-flex flex-column justify-content-between">
 
-        <div>
-          <div class="container mt-3 p-3">
-              <h1 class="text-center text-white">Você sabia que para muitas pessoas é possível <strong>quitar</strong> todas suas <span class="text-danger">dívidas</span> e limpar seu nome em poucos meses?</h1>
-              <h2 class="mt-4 text-center text-warning">Faça o teste para descobrir se você é uma delas...</h2>
-          </div>
-          <div class="d-grid mt-2 px-4 py-2">
-              <a class="btn btn-primary btn-lg" href="quiz1.html" role="button">Começar teste gratuito!</a>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>QUIZ</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body class="bg-azure">
+
+  <div class="bg-1 d-flex align-items-center flex-column justify-content-center">
+
+        <div class="py-3 mb-4 kumbh-bold d-flex align-items-center flex-column text-center">
+            <span class="text-p text-shadow f-32">Chega de sofrer com</span>
+            <span class="text-danger text-shadow f-50">dívidas</span>
+        </div>
+
+        <div class="px-5 mb-4 text-center">
+            <span class="text-p f-20 kumbh">Aprenda Agora Mesmo as Estratégias para Limpar Seu Nome e Recuperar Seu Controle Financeiro</span>
         </div>
 
         <div class="mt-4">
-            <img src="images/sad-2.png" alt="Dinheiro" class="img-fluid">
+            <img src="images/grief.png" alt="Ícone Homem triste" class="grief">
         </div>
 
+  </div>
+
+
+  <!-- Rapport e mockup-->
+  <div class="px-4 my-5 lexend col-md-8 m-md-auto mt-md-5">
+    <p class="f-20 text-white">Descubra as estratégias <span class="text-warning">comprovadas</span> para quitar todas as suas <span class="text-danger">dívidas</span>, melhorar seu score de crédito e finalmente alcançar a paz <span class="text-success">financeira</span> que você merece!</p>
+    <div class="text-center"><img src="images/mockup2.png" alt="Mockup Livro " class="mt-3 img-fluid imagem3"></div>
+    <div class="text-center"><a style="width: 100%;" class="btn btn-outline-light btn-lg" id="scroll" role="button">Conferir</a></div>
+  </div>
+
+  <div class="spacing-md"></div>
+
+  <!-- vantagens -->
+  <div class="pb-5"> 
+    <div class="lexend-bold text-center px-5 mb-md-5">
+      <p class="f-24 text-white">Apenas este guia já vai te ajudar a...</p>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+    <div class="d-flex flex-column justify-content-between col-md-8 m-md-auto">
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
+        <span class="f-20 text-white lexend-bold">Pagar suas dívidas rapidamente</br></span>
+        <box-icon name='time' size="md" color="#ffffff"></box-icon>
+        <span class="f-16 text-white lexend-light">Técnicas práticas para quitar</br>dívidas de forma eficaz.</span>
+      </div>
+
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
+        <span class="f-20 text-white lexend-bold">Melhorar seu score de crédito</br></span>
+        <box-icon name='line-chart' size="md" color="#ffffff"></box-icon>
+        <span class="f-16 text-white lexend-light">Estratégias para limpar seu</br>nome e aumentar seu score.</span>
+      </div>
+
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
+        <span class="f-20 text-white lexend-bold">Controlar suas finanças</br></span>
+        <box-icon size="md" color="#ffffff" name='money'></box-icon>
+        <span class="f-16 text-white lexend-light">Métodos para organizar suas</br>finanças e evitar novas dívidas.</span>
+      </div>
+
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
+        <span class="f-20 text-white lexend-bold">Paz de espírito</br></span>
+        <box-icon size="md" color="#ffffff" name='infinite'></box-icon>
+        <span class="f-16 text-white lexend-light">Reduza o estresse financeiro e</br>melhore sua qualidade de vida.</span>
+      </div>
+
+      <div class="vantagens py-2 mb-4 d-flex flex-column text-center align-items-center">
+        <span class="f-20 text-white lexend-bold">Educação financeira contínua</br></span>
+        <box-icon size="md" color="#ffffff" name='book-bookmark'></box-icon>
+        <span class="f-16 text-white lexend-light">Ferramentas e recursos para manter</br>sua saúde financeira a longo prazo.</span>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section"> <div class="triangle-divider inverted"></div></div>
+ 
+
+  <!--Por que funciona?-->
+  <div class="bg-white pb-2">
+    <div class="col-md-8 m-md-auto">
+      <div class="pt-5 pb-2 mb-md-3">
+        <div class="text-center pb-2"><h1 class="text-azure lexend-bold f-24">Por que funciona??</h1></div>
+        <p class="text-azure lexend-light f-16 px-4">Nosso guia foi desenvolvido com base em métodos comprovados e testados, usados por especialistas em finanças e pessoas comuns que conseguiram sair das dívidas. Ele combina técnicas de planejamento financeiro, negociação de dívidas, controle de gastos e exercícios mentais para mudar sua mentalidade financeira. <span class="lexend">Tudo isso para...</span></p>
+      </div>
+      <div id="acabar-dividas" class="text-center"><span class="text-shadow text-white lexend-bold f-32">Acabar com as <span class="text-danger">dívidas!</span></span></div>
+  
+      <div class="px-5 text-p lexend col-md-10 m-md-auto">
+        <ul class="list-group text-center">
+          <li class="list-group-item">Serasa</li>
+          <li class="list-group-item">FGTS</li>
+          <li class="list-group-item">Receita Federal</li>
+          <li class="list-group-item">MEI</li>
+          <li class="list-group-item">Banco do Brasil</li>
+          <li class="list-group-item">Caixa</li>
+          <li class="list-group-item">Santander</li>
+          <li class="list-group-item">NuBank</li>
+          <li class="list-group-item">Inter</li>
+          <li class="list-group-item">Bradesco</li>
+          <li class="list-group-item">Itaú</li>
+        </ul>
+    </div>
+
+    <div class="card m-4 p-4 col-md-8 m-md-auto my-md-4">
+      <img src="images/person1.png" alt="Depoimento 1" class="card-img-top img-depoimento m-md-auto">
+      <div class="card-body">
+        <p class="text-p lexend">"Antes de seguir este guia, eu estava desesperado com minhas dívidas. Hoje, estou livre das dívidas e meu nome está limpo. Recomendo a todos que estão na mesma situação."</p>
+        <p class="text-p lexend-light fs-5">João Borges T.</p>
+      </div>
+    </div>
+
+    <div class="card m-4 p-4 col-md-8 m-md-auto my-md-4">
+      <img src="images/person2.png" alt="Depoimento 2" class="card-img-top img-depoimento m-md-auto">
+      <div class="card-body">
+        <p class="text-p lexend">"Este ebook mudou minha vida financeira. As estratégias são práticas e fáceis de seguir. Consegui pagar todas as minhas dívidas em menos de 6 meses."</p>
+        <p class="text-p lexend-light fs-5">Augusto Lima S.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="mt-5 col-md-8 m-md-auto mt-md-5">
+      <div class="d-flex align-items-center flex-md-column p-2">
+        <box-icon class="icon mx-4" size="lg" color="#ffffff" name='line-chart'></box-icon>
+        <p class="text-white lexend-bold p-2">95% dos leitores relataram uma melhoria significativa em suas finanças em apenas 3 meses.</p>
+      </div>
+
+      <div class="d-flex align-items-center p-2 flex-md-column">
+        <box-icon class="icon2 mx-4" size="lg" color="#ffffff" name='trophy'></box-icon>
+        <p class="text-white lexend-bold p-2">80% dos usuários conseguiram negociar suas dívidas com sucesso.</p>
+      </div>
+  </div>
+
+  <div class="text-center p-2 col-md-8 m-md-auto mt-md-4">
+    <p class="text-white text-shadow f-32 lexend-bold">Ainda assim...</p>
+    <p class="text-white lexend-light px-4 f-16">Poucas pessoas conhecem esse material, e se você chegou até aqui, você poderia se considerar bem sortudo!</p>
+    <p class="text-white lexend-light px-3 f-16">Por isso, ajude-nos a crescer! Deixe uma <span class="text-warning">avaliação</span> honesta do nosso ebook e receba um pequenho brinde na sua compra como agradecimento.</p>
+    <p class="text-white lexend-bold px-3 f-16">O brinde é...</p>
+    <p class="text-success text-shadow f-32 lexend-bold pt-3">Um descontasso!!!</p>
+  </div>
+
+  <div id="checkout" class="text-center">
+    <img src="images/discount.png" alt="" class="img-fluid imagem4">
+    <div class="text-center" style="margin-top: -30px;"><a class="btn btn-success btn-lg w-75" href="https://pay.kiwify.com.br/OAecxhg" role="button"><span class="lexend-bold f-20 p-4">Conferir</span></a></div>
+  </div>
+
+  <div class="spacing"></div>
+
+  <div class="text-center p-2 mt-4">
+    <p class="text-white text-shadow f-24 lexend-bold">E tenho mais pra você!</p>
+    <p class="text-white lexend-light f-20">Comprando ainda hoje</br>você leva de brinde:</p>
+  </div> 
+
+  <div class="px-4 col-md-8 m-md-auto">
+    <div class="card my-3 text-center">
+      <img src="images/bonus1.png" alt="Imagem" class="card-img-top">
+      <div class="card-body" style="background-color: transparent;">
+        <span class="lexend f-20">2 Planilhas para planejamento de orçamentos e gastos mensais.</span>
+      </div>
+    </div>
+
+    <div class="card my-3 text-center">
+      <img src="images/bonus2.png" alt="Imagem" class="card-img-top">
+      <div class="card-body">
+        <span class="lexend f-20">1 Agendador de tarefas para se organizar.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="spacing-2"></div>
+
+  <div class="text-center mt-3 px-4 col-md-8 m-md-auto">
+    <p class="lexend-light f-20 text-white">Não perca essa oportunidade de transformar sua vida <span class="text-success">financeira!</span> Clique no botão abaixo para adquirir seu ebook agora mesmo e comece a jornada rumo à liberdade financeira.</p>
+    <p class="lexend f-20 text-warning text-shadow mt-2">Clique no botão abaixo para adquirir seu ebook agora mesmo e comece a jornada rumo à liberdade financeira.</p>
+  </div>
+  
+  <div class="text-center mt-5"><a class="btn btn-success btn-lg" href="https://pay.kiwify.com.br/OAecxhg" role="button"><span class="lexend-bold f-20 p-4">Adquirir meu ebook agora</span></a></div>
+
+  <div class="spacing"></div>
+  <div class="section"> <div class="triangle-divider inverted"></div></div>
+  <div class="spacing-2 bg-white"></div>
+
+  <div class="bg-white d-flex flex-column text-center align-items-center px-3">
+    <div class="col-md-8 m-md-auto">
+      <img style="max-height: 100px;max-width: 100px;" src="images/garantia.png" alt="Selo de garantia" class="img-fluid pb-2">
+      <p class="text-success lexend-bold f-24">Confiança Total:</p>
+      <p class="text-azure lexend-light f-20">Garantia de Satisfação ou Seu Dinheiro de Volta! Se, por qualquer motivo, você não estiver satisfeito com o ebook em até 7 dias, devolveremos 100% do seu dinheiro, sem perguntas.</p>
+    </div>
+  </div>
+
+  <div class="spacing-2 spacing-md bg-white"></div>
+
+  <!--F.A.Q-->
+  <div class="bg-white px-2">
+  <div class="text-center"><p class="text-azure f-24 lexend-bold">F.A.Q</p></div>
+  <div class="accordion accordion-flush lexend-light" id="accordionFlushExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+          1. Como vou receber o guia?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Você receberá um link para download imediatamente após a confirmação da compra.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+          2. O guia realmente funciona?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Sim! Ele foi desenvolvido com base em métodos comprovados e testados, e já ajudou várias pessoas a saírem das dívidas.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+          3. Preciso de conhecimentos prévios em finanças para entender o guia?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Não! O guia foi escrito de forma clara e acessível para que qualquer pessoa, mesmo sem conhecimentos financeiros prévios, possa seguir e aplicar as estratégias.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          4. Posso acessar os bônus imediatamente?
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Sim! Todos os bônus serão liberados junto com o ebook, para que você possa começar a utilizar todos os recursos de imediato.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          5. Quanto tempo leva para ver resultados?
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">Os resultados podem variar, mas muitos leitores relatam melhorias significativas em suas finanças em apenas 3 meses seguindo as estratégias do guia.</div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>

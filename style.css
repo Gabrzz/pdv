@@ -24,6 +24,13 @@ html {
     margin-top: -50px;
 }
 
+
+
+
+
+
+
+
 .spacing{
     height: 70px;
 }
@@ -160,10 +167,10 @@ html {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-
 .section{
     background-color: white;
 }
+
 .triangle-divider {
     width: 0;
     height: 0;
@@ -172,4 +179,80 @@ html {
     border-top: 50px solid rgba(46, 62, 78, 1);
     margin: 0 auto;
     background-color: white;
+}
+
+.icon{
+    width: 70vw;
+}
+.icon2{
+    width: 50vw;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #imagem1{
+        border: solid 2px white;
+        border-radius: 10px;
+        max-height: 600px;
+        max-width: 600px;
+    }
+    .imagem2{
+        max-width: 600px;
+    }
+    .imagem3{
+        max-height: 500px;
+    }
+    .imagem4{
+        max-height: 1000px;
+    }
+
+    .bg-1{
+        background-image: url(images/back1-pc.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .f-16 {
+        font-size: 20px;
+    }
+    
+    .f-20 {
+        font-size: 24px;
+    }
+    
+    .f-24 {
+        font-size: 32px;
+    }
+    
+    .f-32 {
+        font-size: 50px;
+    }
+    
+    .f-50 {
+        font-size: 65px;
+    }
+
+    .spacing-md{
+        height: 100px;
+    }
+
+    .vantagens{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    }
+
+    .img-depoimento{
+        max-height: 250px;
+        max-width: 250px;
+    }
+
+    .icon{
+        width: fit-content;
+    }
+    .icon2{
+        width: fit-content;
+    }
 }
