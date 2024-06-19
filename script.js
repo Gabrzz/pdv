@@ -4,3 +4,4 @@ document.getElementById('scroll').addEventListener('click', function(event) {
         behavior: 'smooth'
     });
 });
+
